@@ -142,9 +142,4 @@
     <rule ref="SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable"/>
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable"/>
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable"/>
-
-    <!-- Folders included -->
-    <file>app/</file>
-    <file>config/</file>
-    <file>routes/</file>
 </ruleset>
