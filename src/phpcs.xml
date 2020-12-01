@@ -111,6 +111,11 @@
 
     <!-- Functions -->
     <rule ref="SlevomatCodingStandard.Functions.StaticClosure"/>
+    <rule ref="SlevomatCodingStandard.Functions.ArrowFunctionDeclaration">
+        <properties>
+            <property name="spacesCountAfterKeyword" value="0"/>
+        </properties>
+    </rule>
 
     <!-- Namespaces -->
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
