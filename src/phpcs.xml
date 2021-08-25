@@ -8,6 +8,10 @@
     <!-- Custom rules -->
     <config name="installed_paths" value="vendor/slevomat/coding-standard"/>
 
+    <rule ref="PSR1.Methods.CamelCapsMethodName">
+        <exclude-pattern>./tests/*</exclude-pattern>
+    </rule>
+
     <!-- Arrays -->
     <rule ref="SlevomatCodingStandard.Arrays.MultiLineArrayEndBracketPlacement"/>
     <rule ref="SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace"/>
@@ -60,6 +64,7 @@
                 <element value="private methods"/>
             </property>
         </properties>
+        <exclude-pattern>./tests/*</exclude-pattern>
     </rule>
     <rule ref="SlevomatCodingStandard.Classes.ConstantSpacing">
         <properties>
@@ -107,6 +112,11 @@
         <properties>
             <property name="lineLengthLimit" value="120"/>
         </properties>
+        <exclude-pattern>./tests/*</exclude-pattern>
+    </rule>
+
+    <rule ref="Generic.Files.LineLength">
+        <exclude-pattern>./tests/*</exclude-pattern>
     </rule>
 
     <!-- Functions -->
