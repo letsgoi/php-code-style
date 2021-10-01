@@ -105,7 +105,6 @@
             <property name="linesCountAfterLastUseWhenLastInClass" value="0"/>
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements"/>
 
     <!-- Files -->
     <rule ref="SlevomatCodingStandard.Files.LineLength">
