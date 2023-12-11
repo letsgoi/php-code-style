@@ -25,10 +25,10 @@
     <rule ref="SlevomatCodingStandard.ControlStructures.AssignmentInCondition"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing">
         <properties>
-            <property name="linesCountBeforeControlStructure" value="1"/>
-            <property name="linesCountBeforeFirstControlStructure" value="0"/>
-            <property name="linesCountAfterControlStructure" value="1"/>
-            <property name="linesCountAfterLastControlStructure" value="0"/>
+            <property name="linesCountBefore" value="1"/>
+            <property name="linesCountBeforeFirst" value="0"/>
+            <property name="linesCountAfter" value="1"/>
+            <property name="linesCountAfterLast" value="0"/>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowEmpty"/>
@@ -88,8 +88,8 @@
     <rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference"/>
     <rule ref="SlevomatCodingStandard.Classes.ParentCallSpacing">
         <properties>
-            <property name="linesCountBeforeParentCall" value="1"/>
-            <property name="linesCountAfterParentCall" value="1"/>
+            <property name="linesCountBefore" value="1"/>
+            <property name="linesCountAfter" value="1"/>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Classes.PropertySpacing">
